@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>html5 exercise</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<header>HTML5 新增标签练习</header>
+	<div class="container">
+		<nav>
+			<ul>
+				<li class="active">Home</li>
+				<li>Label</li>
+				<li>Docs</li>
+				<li>Price</li>
+				<li>Blog</li>
+				<li>Docs</li>
+				<li>Blog</li>
+				<li>Docs</li>
+				<li>Login</li>
+				<li>Sign up</li>
+			</ul>
+		</nav>
+		<div class="content clearfix">
+			<div class="small-label">
+				<h3>&lt;aside&gt;</h3>
+				<p>定义页面的侧边栏内容</p>
+				<p>exercise</p>
+				<aside>
+					<h4>Epcot Center</h4>
+					<p>The Epcot Center is a theme park in Disney World, Florida.</p>
+				</aside>
+			</div>
+			<div class="big-label">
+				<h3>&lt;article&gt;</h3>
+				<p>定义一个文章区域</p>
+				<p>exercise</p>
+				<article>
+					<h1>Internet Explorer 9</h1>
+					<p> Windows Internet Explorer 9(缩写为 IE9 )在2011年3月14日21:00 发布。</p>
+					<p> Windows Internet Explorer 9(缩写为 IE9 )在2011年3月14日21:00 发布。</p>
+				</article>
+			</div>
+			<div class="small-label">
+				<h3>&lt;canvas&gt;</h3>
+				<p>定义图形，比如图表和其他图像,标签只是图形容器，您必须使用脚本来绘制图形</p>
+				<p>exercise</p>
+				<canvas id="canvas-rect"></canvas>
+				<canvas id="canvas-border"></canvas>
+				<canvas id="canvas-word"></canvas>
+				<p>test img repeat</p>
+				<p>test img repeat</p>
+				<p>test img repeat</p>
+				<img src="images/infro.png" id="repeat-img">
+				<canvas id="canvas-img"></canvas>
+				<p>test img repeat</p>
+				<img src="images/smile.png" id="repeat-smile">
+				<canvas id="canvas-smile"></canvas>
+			</div>
+			<div class="small-label">
+				<h3>&lt;audio&gt;</h3>
+				<p>定义音频内容</p>
+				<p>exercise</p>
+				<audio controls>
+				  <source src="http://www.runoob.com/try/demo_source/horse.ogg" >
+				  <source src="http://www.runoob.com/try/demo_source/horse.mp3" >
+					您的浏览器不支持 audio 元素。
+				</audio>
+			</div>
+			<div class="small-label">
+				<h3>&lt;datalist&gt;</h3>
+				<p>规定input元素可能得选项列表</p>
+				<p>exercise</p>
+				<input class="select-input" type="" name="" list="browsers">
+				<datalist id="browsers">
+					<option>chrome</option>
+					<option>chrdfome</option>
+					<option>chroddsfme</option>
+					<option>explorer</option>
+					<option>opera</option>
+					<option>safari</option>
+					<option>firefox</option>
+					<option>other</option>
+				</datalist>
+			</div>
+			<div class="big-label">
+				<h3>&lt;output&gt;</h3>
+				<p>output作为计算结果输出显示</p>
+				<p>exercise</p>
+				<form class="output-type" oninput="all.value = parseInt(a.value) + parseInt(b.value)">
+					0<input type="range" id="a" name="" value="33">100+<input type="number" id="b" name="" value="45">=<output name="all" for="a b"></output>
+				</form>
+				<form class="output-type" oninput="x.value = parseInt(a1.value) + parseInt(b1.value)">
+					0<input type="range" id="a1" name="" value="73">100+<input type="number" id="b1" name="" value="49">=<output name="x" for="a1 b1"></output>
+				</form>
+			</div>
+			<div class="small-label">
+				<h3>&lt;details&gt;&lt;summary&gt;</h3>
+				<p>details 规定用户可见的或者隐藏的需求的补充细节</p>
+				<p>summary  标签包含 details 元素的标题</p>
+				<p>exercise</p>
+				<details>
+					<summary>this is title</summary>
+					<p>this is content</p>
+					<p>this is content</p>
+					<p>this is content</p>
+				</details>
+			</div>
+			<div class="small-label">
+				<h3>&lt;embed&gt;</h3>
+				<p>定义了一个容器，用来嵌入外部应用或者互动程序</p>
+				<p>exercise</p>
+				<embed src="http://www.w3schools.com/tags/helloworld.swf">
+			</div>
+			<div class="small-label">
+				<h3>&lt;figure&gt;&lt;figcaption&gt;</h3>
+				<p>figure规定独立的流内容 图像、图表、照片、代码等</p>
+				<p>figcaption定义figure元素的标题</p>
+				<p>exercise</p>
+				<figure>
+					<figcaption>this is forestry.io logo</figcaption>
+					<img src="images/forestry-logo.png">
+				</figure>
+			</div>
+			<div class="small-label">
+				<h3>&lt;keygen&gt;</h3>
+				<p>keygen规定用于表单的密钥对生成器字段</p>
+				<p>exercise</p>
+				<form action="demo_keygen.php" method="get">
+				  用户名: <input type="text" name="usr_name"><br>
+				  加密: <keygen name="security">
+				  <input type="submit">
+				</form>
+			</div>
+			<div class="small-label">
+				<h3>&lt;mark&gt;</h3>
+				<p>mark用于标记突出文本</p>
+				<p>exercise</p>
+				<p>this is mark function,it is <mark>important</mark></p>
+			</div>
+			<div class="small-label">
+				<h3>&lt;progress&gt;</h3>
+				<p>progress定义进度条</p>
+				<p>exercise</p>
+				<progress value="80" max="100">
+					<div pseudo="-webkit-progress-inner-element">
+						<div pseudo="-webkit-progress-bar">
+							<div pseudo="-webkit-progress-value" style="width: 80%;"></div>
+						</div>
+					</div>
+				</progress>
+				<p>progress element css : <br><br><a href="https://css-tricks.com/html5-progress-element/" target="_blank">https://css-tricks.com/html5-progress-element/</a></p>
+			</div>
+			<div class="big-label">
+				<h3>&lt;section&gt;</h3>
+				<p>section标签定义文档中的节，比如章节、页眉、页脚或文档中的其他部分</p>
+				<p>exercise</p>
+				<section>
+					<p>This is document,you can use "section" this label</p>
+					<p>This is document,you can use "section" this label</p>
+					<p>This is document,you can use "section" this label</p>
+					<p>This is document,you can use "section" this label</p>
+				</section>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container clearfix">
+			<h2>&lt;footer&gt;lable exercise</h2>
+			<dl>
+				<dt>other station</dt>
+				<dd><a href="http://www.runoob.com/tags/tag-dl.html">tag exercise</a></dd>
+				<dd><a href="http://www.runoob.com/tags/tag-dl.html">project</a></dd>
+				<dd><a href="http://www.runoob.com/tags/tag-dl.html">bootstrap</a></dd>
+				<dd><a href="http://www.runoob.com/tags/tag-dl.html">javascript</a></dd>
+				<dd><a href="http://www.runoob.com/tags/tag-dl.html">jquery</a></dd>
+				<dd><a href="http://www.runoob.com/tags/tag-dl.html">angular.js</a></dd>
+				
+			</dl>
+			<dl>
+				<dt>contact us</dt>
+				<dd>
+					<button type="button">Send Message</button>
+					<p>You can send message to this email : <a href="mailto: xiemeilihcy@gmail.com">xiemeilihcy@gmail.com</a> to contact me</p>
+				</dd>
+			</dl>
+		</div>
+	</footer>
+	<script type="text/javascript">
+		function makeCanvas () {
+			// 绘制矩形fillStyle、fillRect
+			var c = document.getElementById('canvas-rect');
+			var ctx = c.getContext('2d');
+			ctx.fillStyle = '#f9ebfb';
+			ctx.shadowColor = '#fff000';
+			ctx.shadowBlur = 20;
+			ctx.shadowOffsetX = 20;
+			ctx.shadowOffsetY = 40;
+			ctx.fillRect(0,0,80,100);
+			// 使用渐变笔触沪指矩形边框strokeStyle、strokeRect、lineWidth
+			var c1 = document.getElementById('canvas-border');
+			var ctx1 = c1.getContext('2d');
+			var gradient = ctx1.createLinearGradient(0,0,170,0);
+			gradient.addColorStop("0", "magenta");
+			gradient.addColorStop("0.5", "#fff000");
+			gradient.addColorStop("1", "red");
+			ctx1.strokeStyle = gradient;
+			ctx1.lineWidth = 5;
+			ctx1.strokeRect(20,20,150,100);
+
+			var c2 = document.getElementById('canvas-word');
+			var ctx2 = c2.getContext('2d');
+			ctx2.font = "30px Verdana";
+			var gradient2 = ctx2.createLinearGradient(0,0,c.width,0);
+			gradient2.addColorStop("0","#f00");
+			gradient2.addColorStop("0.5","#fff");
+			gradient2.addColorStop("1","yellow");
+			ctx2.strokeStyle = gradient2;
+			ctx2.strokeText("Explo rer!",10,50);
+
+			var c3 = document.getElementById('canvas-img');
+			var ctx3 = c3.getContext('2d');
+			var img = document.getElementById("repeat-img");
+			var pat = ctx3.createPattern(img, "repeat");
+			ctx3.rect(0,0,190,200);
+			ctx3.fillStyle = pat;
+			ctx3.fill();
+
+			var c4 = document.getElementById('canvas-smile');
+			var ctx4 = c4.getContext('2d');
+			var img2 = document.getElementById('repeat-smile');
+			var pat2 = ctx4.createPattern(img2, "repeat");
+			ctx4.rect(0,0, 200, 200);
+			ctx4.fillStyle = pat2;
+			ctx4.fill();
+		}
+		makeCanvas();
+	</script>
+</body>
+</html>

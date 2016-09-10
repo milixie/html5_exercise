@@ -1,0 +1,271 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+ol,ul,li{
+  list-style: none;
+  list-style-type: none;
+}
+
+body{
+  font-size: 12px;
+  font-family: micorsofe yahei, tohoma, arial, \5b8b\4f53, sans-serif;
+  line-height: 1.428;
+}
+
+.clearfix{
+  *zoom: 1;
+}
+
+.clearfix:before, .clearfix:after{
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.clearfix:after{
+  clear: both;
+}
+
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+
+header{
+  text-align: center;
+  font-size: 40px;
+  padding: 30px 0 20px;
+  color: #0c51d0;
+}
+
+.container{
+  width: 1170px;
+  margin: 0 auto;
+}
+
+nav{
+  background: #1963ea;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+/*  box-shadow: 1px -1px 1px #0c51d0;
+  -webkit-box-shadow: 1px -1px 1px #0c51d0;
+  -moz-box-shadow: 1px -1px 1px #0c51d0;
+  -o-box-shadow: 1px -1px 1px #0c51d0;*/
+  margin-bottom: 20px;
+}
+nav ul{
+  padding: 0 20px;
+  height: 50px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 48px;
+  margin-top: 1px;
+  padding: 0 36px;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+
+nav ul li:hover, nav ul li.active{
+  background: #fff;
+  color: #0c51d0;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+.content{
+  background: #f7f7f7;
+/*  box-shadow: -2px -2px 2px #eaeaea;
+  -webkit-box-shadow: -2px -2px 2px #eaeaea;
+  -moz-box-shadow: -2px -2px 2px #eaeaea;
+  -o-box-shadow: -2px -2px 2px #eaeaea;*/
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 30px;
+}
+
+.small-label,.big-label{
+  color: #fff;
+  padding: 16px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  margin: 10px;
+  float: left;
+}
+
+.small-label h3,.big-label h3{
+  text-align: center;
+  padding: 6px;
+  border-bottom: 1px solid #f7f7f7;
+  font-size: 20px;
+}
+
+.small-label p,.big-label p{
+  padding: 6px;
+  font-size: 16px;
+}
+
+.small-label {
+  width: 30%;
+  background: #4f89f5;
+}
+
+.small-label:hover{
+  background: #13d2f5;
+}
+
+.big-label{
+  width: 65%;
+  background: #038e34;
+}
+
+.big-label:hover{
+  background: #cc4ff5;
+}
+
+.select-input{
+  width: 240px;
+  height: 40px;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+summary{
+  font-size: 18px;
+  outline: none;
+  background: yellow;
+  color: red;
+  padding: 6px 10px;
+}
+
+details {
+  background: red;
+}
+
+embed{
+  width: 240px;
+  height: 80px;
+}
+
+figcaption{
+  font-size: 28px;
+  color: yellow;
+}
+
+input[type="number"]{
+  width: 200px;
+  height: 40px;
+  margin: 0 10px;
+}
+
+form.output-type{
+  font-size: 15px;
+}
+form.output-type input#a, form.output-type input#a1{
+  position: relative;
+  height: 40px;
+  width: 200px;
+  margin: 0 10px;
+  top: 15px;
+}
+
+progress{
+  width: 240px;
+  height: 20px;
+  border-radius: 5px;
+  -webkit-appearance: progress-bar;
+  -webkit-writing-mode: horizontal-tb;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: yellow;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+progress[value]::-webkit-progress-value{
+  background-image:
+     -webkit-linear-gradient(-45deg, 
+                             transparent 33%, rgba(0, 0, 0, .1) 33%, 
+                             rgba(0,0, 0, .1) 66%, transparent 66%),
+     -webkit-linear-gradient(top, 
+                             rgba(255, 255, 255, .25), 
+                             rgba(0, 0, 0, .25)),
+     -webkit-linear-gradient(left, #09c, #f44);
+
+  border-radius: 2px; 
+  background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+footer{
+  background: #6707f7;
+  padding: 100px;
+}
+
+footer:hover{
+  background: #e95d10;
+}
+footer h2{
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+dl {
+  display: inline-block;
+  float: left;
+  width: 40%;
+  color: #fff;
+  font-size: 18px;
+}
+
+dt{
+  font-size: 26px;
+  color: yellow;
+}
+dd a{
+  color: #f88;
+}
+
+dd a:hover{
+  color: #fff;
+}
+
+dd button{
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 10px;
+  background: green;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  outline: none;
+  border: 1px solid #0cd507;
+  color: #fff;
+  margin: 20px 0;
+  cursor: pointer;
+}
